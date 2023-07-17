@@ -1,0 +1,88 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif, ;
+    background-image: url('https://tutorialtec.com.br/wp-content/uploads/2021/09/deixar-pc-bonito.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20px; 
+}
+h1{
+    color: #f6f1f1;
+    text-align: center;
+    background-color: #df9070;
+    border-radius: 10px;
+   
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   flex-wrap: wrap;
+   max-width: 800px;
+   margin: 10px auto;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 0 1px 10px rgba(219, 109, 109, 0.5);
+   font-size: 32px;
+}
+
+.boton {
+    display: inline-block;
+    position:relative;
+    padding: 7px 20px;
+    background-color: #f8e7e7;
+
+    color: #131313;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.9s ease-in-out;
+    overflow: hidden;
+    
+}
+.boton:hover {
+    background-color: #a945c7;
+    box-shadow: 0 0 10px #cf6893, 0 0 40px
+    #a945c7,0 0 80px #e33c5d;
+    padding: 10px 20px;
+    
+}
+
+
+
+h6 {
+    color: #7b1818;
+    text-align: center;
+}
+/* estilos para los formularios */
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.boton:resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#432cd6;
+    font-weight: 900;
+    background-color: #2f0000;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+  }
+.botones{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 5px;
+   
+}
